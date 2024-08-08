@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Bharath",
+      "email": "Bharath@gmail.com",
+      "password": "123456",
+      "number": "99554442233"
+    },
+    {
+      "id": "1d0b",
+      "name": "Divya",
+      "password": "123456",
+      "email": "Divya@gmail.com",
+      "number": "64568546"
+    },
+    {
+      "id": "d5b9",
+      "name": "Rayudu",
+      "password": "123456",
+      "email": "Rayudu@gmail.com",
+      "number": "565498564"
+    },
+    {
+      "id": "8ca2",
+      "name": "Priya",
+      "password": "1223",
+      "email": "Priya@gmail.com",
+      "number": "56455"
+    },
+    {
+      "id": "d4a4",
+      "name": "Raju",
+      "password": "123456",
+      "email": "Raju@gmail.com",
+      "number": "54154545"
+    },
+    {
+      "id": "f257",
+      "name": "Surya",
+      "password": "123456",
+      "email": "Surya@gmail.com",
+      "number": "415454"
+    },
+    {
+      "id": "8f63",
+      "name": "Shanmathi",
+      "password": "54656645",
+      "email": "Shanmath@gmail.com",
+      "number": "564646"
+    }
+  ]
+}
