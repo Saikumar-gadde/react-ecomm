@@ -41,6 +41,26 @@ const Signup = () => {
 
   }, [addUser]);
 
+  const deleteUser = async (id) => {
+    try {
+
+      const API = 'http://localhost:3000/users'
+
+      const deleteUser = await axios.delete(`${API}/${id}`);
+
+      if(deleteUser.data){
+        setAddUser(!addUser);
+        alert("User deleted successfully....")
+      }
+
+      
+    } catch (error) {
+      console.log(error)
+    }
+
+
+  }
+
  
   const usersData = users.map((user, index) => {
     return(
@@ -48,6 +68,10 @@ const Signup = () => {
         <h2>Name : {user.name}</h2>
         <h4>Mobile: {user.number}</h4>
         <h4>Email: {user.email}</h4>
+        <div>
+          <button className='btn btn-outline-dark me-3' >Update</button>
+          <button onClick={() => deleteUser(user.id)} className='btn btn-outline-danger' >Delete</button>
+        </div>
       </div>
     )
   })
